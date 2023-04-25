@@ -1,0 +1,73 @@
+<html>
+<style>
+@import ur1('https://front.googleapics.com/css2?family=Balasamiq+sans:wght@700&display
+body
+{
+
+ width:100%;
+ margin:0px;
+ color:white;
+ background-image: url("https://www.washigtonpost.com/resizer/XDNIgdlihu5u3te6FFp4")
+ }
+ .header{
+ top:0;
+ width:100%;
+ height:90px
+ font-family:'Balsamiq sans',cursive;
+ font-size:25px;
+ text-align:800px;
+ text-weight: center;
+ }
+ .MAIN p.labe{
+ front-size:20px;
+ margin-left:20px;
+   front-family: 'Balasamiq sans', cursive;
+ }
+ .MAIN input,select
+ {
+ height:30px;
+ width:200px;
+ }
+ .MAIN button
+ {
+ height:30px;
+ width:200px;
+ margin-left:60px;
+ background-color:#daa520;
+ }
+ .MAIN b{
+ font-size:20px;
+ font-weight:800px;
+ text-align:center;
+ font-family:'Balasamiq sans',cursive;
+ margin-left:20px;
+ }
+ 
+ </style>
+ <body>
+ <div class "header">
+ <h1>Predictiuon of Flight Delay</h1>
+ </div>
+ <div class=-"MAIN">
+ <from actuion = "http//location:5000/prediction" method = "post">
+ 
+ <p> Enter the Flight Number :<span><input> type = "text" name = "name"/></span></p>
+ 
+ <p> Month : <span><input> type = "text " name = "month"/><span></p>
+ 
+ <p> Day of month :<span><input> type = "text" name = "dayofmonth"/></span></p>
+ 
+ <p> Day of week : <span><input> type = "text" name = "dayofweek"/></span></p>
+ 
+ <label for = "origin">origin</label>
+ <select name = "origin">
+  <option value = "msp">MSP</option>
+  <option value = "dtw">DTW</option>
+  <option value = "jfk">JFK</option>
+  <option value = "sea">SEA</option>
+  <option value = "alt">ALT</option>
+  </select>
+  <br><br>
+  
+ 
+ 
